@@ -1,0 +1,12 @@
+Comandos sugeridos para entrega individual:
+
+git init
+git add .
+git commit -m "Cria estrutura inicial do sistema"
+git branch -M main
+git remote add origin URL_DO_REPOSITORIO
+git push -u origin main
+
+Observação: como o trabalho foi realizado individualmente, foi utilizada somente a branch principal no projeto local. Caso a atividade exija as três branches literalmente, elas podem ser criadas com:
+git branch branch-aluno-1
+git branch branch-aluno-2

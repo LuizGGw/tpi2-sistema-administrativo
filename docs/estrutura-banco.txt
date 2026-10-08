@@ -1,0 +1,57 @@
+PLANEJAMENTO DAS 7 ENTIDADES
+
+USUARIOS
+- id_usuario (PK)
+- nome
+- email
+- senha
+- perfil
+- status
+
+CATEGORIAS
+- id_categoria (PK)
+- nome
+- descricao
+- codigo
+- responsavel
+- status
+
+FORNECEDORES
+- id_fornecedor (PK)
+- razao_social
+- cnpj
+- telefone
+- email
+- cidade
+
+PRODUTOS
+- id_produto (PK)
+- nome
+- id_categoria (FK)
+- id_fornecedor (FK)
+- preco
+- estoque
+
+CLIENTES
+- id_cliente (PK)
+- nome
+- cpf
+- email
+- telefone
+- endereco
+
+PEDIDOS
+- id_pedido (PK)
+- id_cliente (FK)
+- data
+- forma_pagamento
+- desconto
+- frete
+
+ITENS_PEDIDO
+- id_item (PK)
+- id_pedido (FK)
+- id_produto (FK)
+- quantidade
+- preco_unitario
+- subtotal

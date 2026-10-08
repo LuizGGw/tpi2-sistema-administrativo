@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro de Categoria</title><link rel="stylesheet" href="../css/style.css"></head>
+<body><header><h1>Cadastro de Categoria</h1><p>Sistema Administrativo — TPI2</p></header>
+<main class="form-card">
+<form data-endpoint="../php/categorias.php"><tpi2>
+<label for="nome">Nome da categoria</label><input type="text" name="nome" id="nome" required><label for="descricao">Descrição</label><input type="text" name="descricao" id="descricao" required><label for="codigo">Código</label><input type="text" name="codigo" id="codigo" required><label for="responsavel">Responsável</label><input type="text" name="responsavel" id="responsavel" required><label for="status">Status</label><select name="status" id="status" required><option value="">Selecione</option><option value="Ativo">Ativo</option><option value="Inativo">Inativo</option></select>
+<button type="submit">Salvar</button>
+<div class="resultado"></div>
+</tpi2></form>
+<a class="back" href="../index.html">← Voltar para a página inicial</a>
+</main><script src="../js/app.js"></script></body></html>

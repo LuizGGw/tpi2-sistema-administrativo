@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro de Item do Pedido</title><link rel="stylesheet" href="../css/style.css"></head>
+<body><header><h1>Cadastro de Item do Pedido</h1><p>Sistema Administrativo — TPI2</p></header>
+<main class="form-card">
+<form data-endpoint="../php/itens-pedido.php"><tpi2>
+<label for="pedido">Número do pedido</label><input type="number" name="pedido" id="pedido" required><label for="produto">Produto</label><input type="text" name="produto" id="produto" required><label for="quantidade">Quantidade</label><input type="number" name="quantidade" id="quantidade" required><label for="preco_unitario">Preço unitário</label><input type="number" name="preco_unitario" id="preco_unitario" required><label for="subtotal">Subtotal</label><input type="number" name="subtotal" id="subtotal" required>
+<button type="submit">Salvar</button>
+<div class="resultado"></div>
+</tpi2></form>
+<a class="back" href="../index.html">← Voltar para a página inicial</a>
+</main><script src="../js/app.js"></script></body></html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro de Fornecedor</title><link rel="stylesheet" href="../css/style.css"></head>
+<body><header><h1>Cadastro de Fornecedor</h1><p>Sistema Administrativo — TPI2</p></header>
+<main class="form-card">
+<form data-endpoint="../php/fornecedores.php"><tpi2>
+<label for="razao_social">Razão social</label><input type="text" name="razao_social" id="razao_social" required><label for="cnpj">CNPJ</label><input type="text" name="cnpj" id="cnpj" required><label for="telefone">Telefone</label><input type="tel" name="telefone" id="telefone" required><label for="email">E-mail</label><input type="email" name="email" id="email" required><label for="cidade">Cidade</label><input type="text" name="cidade" id="cidade" required>
+<button type="submit">Salvar</button>
+<div class="resultado"></div>
+</tpi2></form>
+<a class="back" href="../index.html">← Voltar para a página inicial</a>
+</main><script src="../js/app.js"></script></body></html>
